@@ -1,0 +1,18 @@
+# Dataset descriptor for the group split described in Section 2.1 of the paper.
+# Edit `path` to the directory holding the images and labels, then run
+# train/train.py from the repository root.
+#
+#   <path>/images/train  <path>/labels/train
+#   <path>/images/val    <path>/labels/val
+#   <path>/images/test   <path>/labels/test
+#
+# train: 2,354 augmented images derived from 474 source photographs
+# val:     102 images, one per source photograph
+# test:    101 images, one per source photograph
+path: /path/to/rebarbinding_group42
+train: images/train
+val: images/val
+test: images/test
+
+nc: 1
+names: ['Present']

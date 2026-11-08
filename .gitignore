@@ -1,0 +1,24 @@
+# Android build output and machine-specific settings
+android/app/build/
+android/build/
+android/.gradle/
+android/local.properties
+android/.idea/
+android/.cxx/
+*.apk
+*.aab
+*.hprof
+
+# Third-party SDKs that android/README.md tells you to download
+android/app/src/main/jni/ncnn-*/
+android/app/src/main/jni/opencv-*/
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# OS
+.DS_Store
+Thumbs.db
